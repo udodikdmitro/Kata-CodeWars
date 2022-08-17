@@ -4,10 +4,8 @@ public class Fibonacci {
     public static long fib(int n) {
         int a = 0;
         int b = 1;
-        if (n == 0) {
-            return a;
-        } else if (n == 1) {
-            return  b;
+        if (n < 2) {
+            return n;
         } else {
             int c = 0;
             for (int i = 2; i <= n; i++) {
