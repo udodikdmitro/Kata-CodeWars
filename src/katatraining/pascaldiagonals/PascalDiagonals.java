@@ -6,8 +6,7 @@ public class PascalDiagonals {
 
         // Return an empty array if l = 0.
         if(l == 0){
-            long[] emptyArray = new long[0];
-            return emptyArray;
+            return new long[0];
         }
 
         // A length of the triangle's side:
